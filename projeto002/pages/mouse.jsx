@@ -18,6 +18,7 @@ export default function init(){
         setX(e.clientX)
         setY(e.clientY)
     }
+    
 
     return (
         <div style={estilo} onMouseMove={movimento}>
